@@ -22,7 +22,7 @@ checkpoints.
 | `ConceptFormer-Trainset` | OpenDocVQA sources | 37,966 grounded query-document training rows |
 | `ConceptFormer-Eval` | Six public benchmarks | Queries, qrels, manifests, and redistribution-safe corpora |
 
-The release cards are under [`huggingface/`](huggingface). Model repositories intentionally
+The release cards are under [`huggingface/`](https://huggingface.co/hmhm1229/ConceptFormer-Qwen). Model repositories intentionally
 publish the trained PEFT adapters rather than duplicate their 16 GB and 7.8 GB public base
 models. The loaders combine each adapter with the `base_model` declared in its model card.
 
