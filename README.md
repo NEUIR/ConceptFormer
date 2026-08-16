@@ -1,4 +1,16 @@
-# ConceptFormer
+<div align="center">
+
+<h1> ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval </h1>
+
+
+<h5 align="center"> 
+
+<a href='https://arxiv.org/abs/2505.22095v2'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://huggingface.co/hmhm1229/MoRE'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+<a href='https://huggingface.co/hmhm1229/MoRE-3B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+
+<h5 align="center"> If you find this project useful, please give us a star🌟.
+</h5>
 
 ConceptFormer is a visual document retriever that learns dynamic latent concepts for
 query-aware document representation. Each annotated evidence region contributes one or
@@ -137,29 +149,16 @@ Expected macro averages on the six benchmarks are:
 Per-dataset results and the exact protocol are in
 [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
 
-## Reproducibility
 
-- Seeds are fixed through the Transformers training argument `--seed`.
-- Dataset rows and qrels are versioned by SHA-256 in the release manifests.
-- Evaluation is corpus-local; datasets are never pooled together.
-- Checkpoint cards record the base model, adapter initialization, token convention, and
-  training objective.
-
-## Acknowledgements
-
-The release layout follows the practical organization of
-[OpenBMB/MoRE](https://github.com/OpenBMB/MoRE). ConceptFormer builds on Hugging Face
-Transformers, PEFT, Qwen2.5-VL, Phi-3-Vision, OpenDocVQA, and Jina VDR datasets. Please cite
-the corresponding upstream work when using these resources.
 
 ## Citation
 
-```bibtex
-@article{conceptformer2026,
-  title   = {ConceptFormer: Latent Concept Learning for Visual Document Retrieval},
-  author  = {Anonymous},
-  journal = {arXiv preprint},
-  year    = {2026}
+```
+@article{peng2026conceptformer,
+  title={ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval},
+  author={Peng Chunyi and Xu Zhipeng and Yan Yukun and Liu Zhenghao and Yu Shi and Mei Sen and Sun Yubo and Zhang Yongheng and Zhou Jie and Gu Yu and Yu Ge and Sun Maosong},
+  year={2026}
+  url={https://arxiv.org/abs/}, 
 }
 ```
 
