@@ -1,0 +1,12 @@
+{
+  "architecture": "ConceptFormerRetriever",
+  "base_model": "Tevatron/dse-phi3-docmatix-v1",
+  "initial_adapter": "NTT-hil-insight/VDocRetriever-Phi3-vision-pretrained",
+  "special_tokens": ["<|lcon|>"],
+  "dynamic_latent_length": true,
+  "latent_pooling": "mean",
+  "latent_kl_variant": "concept2image",
+  "latent_align_mode": "forward",
+  "latent_lambda_forward": 0.2,
+  "state_file": "conceptformer_state.pt"
+}

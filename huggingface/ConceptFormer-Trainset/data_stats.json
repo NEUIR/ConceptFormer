@@ -1,0 +1,27 @@
+{
+  "columns": [
+    "query_id",
+    "query_text",
+    "query_image",
+    "query_type",
+    "relevant_doc_ids",
+    "describe",
+    "bbox_2d",
+    "image_size",
+    "input_size",
+    "jsonl_describe",
+    "answers",
+    "dataset_names"
+  ],
+  "dataset_names_raw_counts": {
+    "[\"docvqa\", \"docvqa\"]": 19,
+    "[\"docvqa\"]": 6381,
+    "[\"dude\"]": 2106,
+    "[\"infovqa\", \"infovqa\"]": 61,
+    "[\"infovqa\"]": 9592,
+    "[\"openwikitable\"]": 4261,
+    "[\"visualmrc\"]": 6123,
+    "[]": 9423
+  },
+  "rows": 37966
+}

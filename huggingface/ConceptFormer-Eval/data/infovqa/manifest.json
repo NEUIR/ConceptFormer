@@ -1,0 +1,21 @@
+{
+  "corpus_included": true,
+  "corpus_source": "NTT-hil-insight/OpenDocVQA-Corpus",
+  "dataset": "infovqa",
+  "qrels_rows": 1048,
+  "query_rows": 1048,
+  "query_source": "NTT-hil-insight/OpenDocVQA",
+  "retrieval_scope": "dataset-local corpus",
+  "source_config": "infovqa",
+  "corpus_rows": 5485,
+  "corpus_positive_docs": 300,
+  "corpus_shards": [
+    "corpus-00000-of-00005.parquet",
+    "corpus-00001-of-00005.parquet",
+    "corpus-00002-of-00005.parquet",
+    "corpus-00003-of-00005.parquet",
+    "corpus-00004-of-00005.parquet"
+  ],
+  "corpus_bytes": 1821864668,
+  "image_storage": "embedded bytes; no external image paths required"
+}

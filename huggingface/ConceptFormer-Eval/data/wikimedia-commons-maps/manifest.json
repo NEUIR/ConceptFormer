@@ -1,0 +1,17 @@
+{
+  "corpus_included": true,
+  "corpus_source": "jinaai/wikimedia-commons-maps",
+  "dataset": "wikimedia-commons-maps",
+  "qrels_rows": 455,
+  "query_rows": 455,
+  "query_source": "jinaai/wikimedia-commons-maps",
+  "retrieval_scope": "dataset-local corpus",
+  "source_config": null,
+  "corpus_rows": 455,
+  "corpus_positive_docs": 455,
+  "corpus_shards": [
+    "corpus-00000-of-00001.parquet"
+  ],
+  "corpus_bytes": 1637240772,
+  "image_storage": "embedded bytes; no external image paths required"
+}

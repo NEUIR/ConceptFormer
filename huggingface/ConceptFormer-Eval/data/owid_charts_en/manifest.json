@@ -1,0 +1,17 @@
+{
+  "corpus_included": true,
+  "corpus_source": "jinaai/owid_charts_en",
+  "dataset": "owid_charts_en",
+  "qrels_rows": 131,
+  "query_rows": 131,
+  "query_source": "jinaai/owid_charts_en",
+  "retrieval_scope": "dataset-local corpus",
+  "source_config": null,
+  "corpus_rows": 131,
+  "corpus_positive_docs": 131,
+  "corpus_shards": [
+    "corpus-00000-of-00001.parquet"
+  ],
+  "corpus_bytes": 11406336,
+  "image_storage": "embedded bytes; no external image paths required"
+}

@@ -1,0 +1,19 @@
+{
+  "corpus_included": true,
+  "corpus_source": "NTT-hil-insight/OpenDocVQA-Corpus",
+  "dataset": "chartqa",
+  "qrels_rows": 150,
+  "query_rows": 150,
+  "query_source": "NTT-hil-insight/OpenDocVQA",
+  "retrieval_scope": "dataset-local corpus",
+  "source_config": "chartqa",
+  "corpus_rows": 20882,
+  "corpus_positive_docs": 119,
+  "corpus_shards": [
+    "corpus-00000-of-00003.parquet",
+    "corpus-00001-of-00003.parquet",
+    "corpus-00002-of-00003.parquet"
+  ],
+  "corpus_bytes": 955114086,
+  "image_storage": "embedded bytes; no external image paths required"
+}

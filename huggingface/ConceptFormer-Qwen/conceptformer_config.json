@@ -1,0 +1,11 @@
+{
+  "architecture": "ConceptFormerRetriever",
+  "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "special_tokens": ["<|lcon|>"],
+  "dynamic_latent_length": true,
+  "latent_pooling": "mean",
+  "latent_kl_variant": "concept2image",
+  "latent_align_mode": "forward",
+  "latent_lambda_forward": 0.2,
+  "state_file": "conceptformer_state.pt"
+}

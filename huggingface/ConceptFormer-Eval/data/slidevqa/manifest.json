@@ -1,0 +1,30 @@
+{
+  "corpus_included": true,
+  "corpus_source": "NTT-hil-insight/OpenDocVQA-Corpus",
+  "dataset": "slidevqa",
+  "qrels_rows": 1010,
+  "query_rows": 760,
+  "query_source": "NTT-hil-insight/OpenDocVQA",
+  "retrieval_scope": "dataset-local corpus",
+  "source_config": "slidevqa",
+  "corpus_rows": 52380,
+  "corpus_positive_docs": 657,
+  "corpus_shards": [
+    "corpus-00000-of-00014.parquet",
+    "corpus-00001-of-00014.parquet",
+    "corpus-00002-of-00014.parquet",
+    "corpus-00003-of-00014.parquet",
+    "corpus-00004-of-00014.parquet",
+    "corpus-00005-of-00014.parquet",
+    "corpus-00006-of-00014.parquet",
+    "corpus-00007-of-00014.parquet",
+    "corpus-00008-of-00014.parquet",
+    "corpus-00009-of-00014.parquet",
+    "corpus-00010-of-00014.parquet",
+    "corpus-00011-of-00014.parquet",
+    "corpus-00012-of-00014.parquet",
+    "corpus-00013-of-00014.parquet"
+  ],
+  "corpus_bytes": 6477479204,
+  "image_storage": "embedded bytes; no external image paths required"
+}

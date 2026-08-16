@@ -1,0 +1,17 @@
+{
+  "corpus_included": true,
+  "corpus_source": "jinaai/tqa",
+  "dataset": "tqa",
+  "qrels_rows": 1000,
+  "query_rows": 1000,
+  "query_source": "jinaai/tqa",
+  "retrieval_scope": "dataset-local corpus",
+  "source_config": null,
+  "corpus_rows": 1000,
+  "corpus_positive_docs": 1000,
+  "corpus_shards": [
+    "corpus-00000-of-00001.parquet"
+  ],
+  "corpus_bytes": 169045347,
+  "image_storage": "embedded bytes; no external image paths required"
+}
