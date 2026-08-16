@@ -11,6 +11,7 @@
 
 <h5 align="center"> If you find this project useful, please give us a star🌟.
 </h5>
+</div>
 
 ConceptFormer is a visual document retriever that learns dynamic latent concepts for
 query-aware document representation. Each annotated evidence region contributes one or
@@ -138,17 +139,6 @@ bash scripts/evaluate.sh \
   0,1,2,3 \
   infovqa,chartqa,slidevqa,tqa,owid_charts_en,wikimedia-commons-maps
 ```
-
-Expected macro averages on the six benchmarks are:
-
-| Model | Recall@10 | NDCG@10 |
-|---|---:|---:|
-| ConceptFormer (Phi3V) | 80.08 | 67.00 |
-| ConceptFormer (Qwen) | **88.33** | **75.97** |
-
-Per-dataset results and the exact protocol are in
-[`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
-
 
 
 ## Citation
