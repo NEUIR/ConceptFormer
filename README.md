@@ -5,9 +5,9 @@
 
 <h5 align="center"> 
 
-<a href='https://arxiv.org/abs/2505.22095v2'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-<a href='https://huggingface.co/hmhm1229/MoRE'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
-<a href='https://huggingface.co/hmhm1229/MoRE-3B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+<a href='https://arxiv.org/abs/2608.15698'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://huggingface.co/hmhm1229/ConceptFormer-Qwen'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+<a href='https://huggingface.co/hmhm1229/ConceptFormer-Phi3V'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 
 <h5 align="center"> If you find this project useful, please give us a star🌟.
 </h5>
@@ -148,7 +148,7 @@ bash scripts/evaluate.sh \
   title={ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval},
   author={Peng Chunyi and Xu Zhipeng and Yan Yukun and Liu Zhenghao and Yu Shi and Mei Sen and Sun Yubo and Zhang Yongheng and Zhou Jie and Gu Yu and Yu Ge and Sun Maosong},
   year={2026}
-  url={https://arxiv.org/abs/}, 
+  url={https://arxiv.org/abs/2608.15698}, 
 }
 ```
 
